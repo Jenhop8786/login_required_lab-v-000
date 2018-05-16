@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   get 'secrets/new'
-  
+
   root 'application#hello'
   
   get 'login' => 'sessions#new'
