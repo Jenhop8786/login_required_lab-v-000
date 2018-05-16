@@ -1,10 +1,10 @@
-class SessionsController < ApplicationController 
-  before_action :require_login 
+class SessionsController < ApplicationController
+  before_action :require_login
 
 
-  private 
+  private
 
-  def require_login 
-    return head(:forbidden) unless session.include? :user_id 
+  def require_login
+    return head(:forbidden) unless session.include? :user_id
   end 
-end 
+end
