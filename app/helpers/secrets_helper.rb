@@ -1,2 +1,2 @@
 module SecretsHelper
-end 
+end
